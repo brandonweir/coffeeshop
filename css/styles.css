@@ -35,3 +35,13 @@ body {
 }
 
 /* Additional styles can be added here */
+
+.card-header {
+  background-color: #004f7c;
+  color: white;
+}
+
+.card-body {
+  background-color: #004f7c;
+  color: white;
+}
