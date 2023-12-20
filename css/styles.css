@@ -2,8 +2,20 @@
 /* Define color variables based on the logo in CSS syntax */
 :root {
   --primary-color: #004f7c; /* Example dark blue color */
-  --secondary-color: #00aeef; /* Example light blue color */
+  --secondary-color: white; /* Example light blue color */
   --accent-color: #ffc72c; /* Example yellow color */
+}
+
+header {
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #31444b, #004f7c);
+  color: white;
+}
+
+footer {
+  padding: 30px;
+  background-image: linear-gradient(to top, #31444b, #004f7c);
+  color: white;
 }
 
 /* General body styling */
@@ -37,11 +49,38 @@ body {
 /* Additional styles can be added here */
 
 .card-header {
-  background-color: #004f7c;
+  background-color: #31444b;
   color: white;
 }
 
 .card-body {
-  background-color: #004f7c;
+  background-color: #3984bb;
+  color: white;
+}
+
+#menuCarousel {
+  padding: 10px;
+}
+
+.card {
+  border-color: #ffc72c;
+  border-width: 2px;
+}
+
+.modal-header {
+  background-color: #31444b;
+  color: white;
+}
+
+.form-label {
+  color: black;
+}
+
+.text-muted {
+  color: black;
+}
+
+#removeButton {
+  background-color: #31444b;
   color: white;
 }
