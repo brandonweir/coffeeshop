@@ -1,0 +1,41 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* h1, h2, h3 {
+    font-family: "Lobster", cursive;
+} */
+
+h2 {
+    color: #3046C5;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, #023314, #0e7c3e, #e4e12a);
+    color: #023314;
+}
+
+header h2 {
+    color: #3707e8;
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #901cad;
+}
+
+/* .card-header {
+    background-color: teal;
+    color: white;
+} */
