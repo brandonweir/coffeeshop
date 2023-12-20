@@ -1,64 +1,37 @@
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
-$color-dark: #60106b;
-$color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-teal: #17A2B8;
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+// Define color variables based on the logo
+$primary-color: #004f7c; // Example dark blue color
+$secondary-color: #00aeef; // Example light blue color
+$accent-color: #ffc72c; // Example yellow color
 
+// General body styling
 body {
-    font-family: $body-font;
+  font-family: 'Arial', sans-serif;
+  background-color: $primary-color;
+  color: $secondary-color;
 }
 
-h1, h2, h3 {
-    font-family: $header-font;
-}
-
-h2 {
-    color: $color-primary;
-}
-
-header {
-    h2 {
-        color: $color-pale;
-    }
-}
-
-footer {
-    background-image: linear-gradient($color-pale, white);
-    padding: 20px 0;
-}
-
-header {
-    padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
-}
-
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
-
+// Navbar styling
 .navbar {
-    background-color: $color-mid;
+  background-color: $secondary-color;
+  
+  .navbar-brand {
+    img {
+      display: inline-block;
+    }
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }
+  
+  .nav-link {
+    color: $primary-color;
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }
 }
 
-.carousel {
-    border: solid $color-secondary;
-}
-
-.carousel-caption {
-    background-color: $color-black-transparent;
-}
-
-.accordion-button {
-    background-color: #d3d3d3;
-}
-
-@import 'modal';
-@import 'review-section'
+// Other styles will be added here

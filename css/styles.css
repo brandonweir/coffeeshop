@@ -1,41 +1,37 @@
+
+/* Define color variables based on the logo in CSS syntax */
+:root {
+  --primary-color: #004f7c; /* Example dark blue color */
+  --secondary-color: #00aeef; /* Example light blue color */
+  --accent-color: #ffc72c; /* Example yellow color */
+}
+
+/* General body styling */
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-/* h1, h2, h3 {
-    font-family: "Lobster", cursive;
-} */
-
-h2 {
-    color: #3046C5;
-}
-
-header {
-    padding: 30px;
-    background-image: linear-gradient(to right, #023314, #0e7c3e, #e4e12a);
-    color: #023314;
-}
-
-header h2 {
-    color: #3707e8;
-}
-
-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
-
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
-
+/* Navbar styling */
 .navbar {
-    background-color: #901cad;
+  background-color: var(--secondary-color);
 }
 
-/* .card-header {
-    background-color: teal;
-    color: white;
-} */
+.navbar .navbar-brand img {
+  display: inline-block;
+}
+
+.navbar .navbar-brand:hover {
+  color: var(--accent-color);
+}
+
+.navbar .nav-link {
+  color: var(--primary-color);
+}
+
+.navbar .nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* Additional styles can be added here */
